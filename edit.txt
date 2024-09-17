@@ -1,0 +1,6 @@
+ Add return in findClosestLeaf
+    public Node findClosestLeaf(int search_key) {
+        return this.findClosestLeaf(root, search_key); // Call the recursive version
+    }
+
+Add "this.root" in inorderDFT & postorderDFT 
